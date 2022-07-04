@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#Main{
+    width: 600px;
+    margin: auto;
+}
+#Back{
+    margin-left: 267px;
+}
+body{
+    background-color: rgb(64, 28, 135);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: white;
+}
