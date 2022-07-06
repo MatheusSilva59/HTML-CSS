@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #181A1B;
+        }
+        h1{
+            color: white;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        thead, tfoot, caption{
+            color: white;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        td, th{
+            background-color: #181A1B;
+            border: 1px solid gray;
+            padding: 10px 20px;
+            color: white;
+        }
+        th{
+            height: 50px;
+        }
+        .position{
+            text-align: center;
+            width: 50px;
+        }
+        .uf{
+            color: rgb(102, 177, 250);
+        }
+        .num-2010{
+            text-align: center;
+        }
+        .num-2021{
+            text-align: right;
+        }
+        .mudança{
+            color: #72ff72;
+            text-align: center;
+        }
+        .porcentagem{
+            text-align: center;
+        }
+        .foot{
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes</h1>
+    <!-- 
+        Anamotia para tabelas grandes
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+     -->
+     <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col">População (2010)</th>
+                <th scope="col">População (2021)</th>
+                <th scope="col">Mudança</th>
+                <th scope="col">% da pop. total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="position">1</td>
+                <td class="uf">São Paulo</td>
+                <td class="num-2010">41 262 199</td>
+                <td class="num-2021">46 649 132	</td>
+                <td class="mudança">+13.05%</td>
+                <td class="porcentagem">21,9%</td>
+            </tr>
+            <tr>
+                <td class="position">2</td>
+                <td class="uf">Minas Gerais</td>
+                <td class="num-2010">19 597 330</td>
+                <td class="num-2021">21 411 923</td>
+                <td class="mudança">+9.26%</td>
+                <td class="porcentagem">10,1%</td>
+            </tr>
+            <tr>
+                <td class="position">3</td>
+                <td class="uf">Rio de Janeiro</td>
+                <td class="num-2010">15 989 929</td>
+                <td class="num-2021">17 463 349</td>
+                <td class="mudança">+9.21%</td>
+                <td class="porcentagem">8,2%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <th class="foot" scope="row">Total de Habitantes</th>
+                <td class="num-2010"><strong>76.849.45</strong>8</td>
+                <td class="num-2021"><strong>85.524.404</strong></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+     </table>
+</body>
+</html>
