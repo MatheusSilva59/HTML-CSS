@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#img-capa{
+    width: 100%;
+}
+nav{
+    background-color: #D2D2BE;
+    padding: 30px;
+    margin-top: -5px;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+    color: #4E5865;
+    padding: 20px;
+}
+a:hover{
+    background-color: beige;
+    transition-duration: .4s;
+}
