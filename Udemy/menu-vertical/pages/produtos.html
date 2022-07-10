@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Vertical</title>
+    <style>
+        ul{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        ul a{
+            color: black;
+            height: 40px;
+            line-height: 40px;
+            width: 200px;
+            text-indent: 40px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            display: block;
+            background: #f7b600 url('../images/menu.png') no-repeat left center;
+
+        }
+        ul a:hover{
+            background-position: right center;
+            background-color: #f99200;
+            transition-duration: .2s;
+        }
+        #home #nav .home a, #produtos #nav .produtos a{
+            background-position: right center;
+            background-color: #f99200;
+        }
+    </style>
+</head>
+<body id="produtos">
+    <h1>Produtos</h1>
+    <ul id="nav">
+        <li class="home">
+            <a href="../index.html">Home</a>
+        </li>
+        <li class="produtos">
+            <a href="#">Produtos</a>
+        </li>
+        <li class="empresa">
+            <a href="">Empresa</a>
+        </li>
+        <li class="contato">
+            <a href="">Contato</a>
+        </li>
+    </ul>
+</body>
+</html>

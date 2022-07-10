@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 80%;
+            min-width: 1050px;
+            margin: auto;
+        }
+        header{
+            background-color: gray;
+            padding: 30px;
+            color: black;
+            text-align: center;
+        }
+        nav#vertical{
+            background-color: lightgray;
+            float: left;
+            width: 25%;
+        }
+        nav#vertical ul{
+            list-style: none;
+            padding: 50px;
+        }
+        nav#vertical a{
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            line-height: 1.5em;
+            padding: 5px;
+        }
+        nav#vertical a:hover{
+            background-color: rgba(128, 128, 128, 0.228);
+        }
+        section#content{
+            float: right;
+            width: 75%;
+            height: auto;
+        }
+        section#content p{
+            padding: 30px 0px;
+            font-size: 1.3em;
+        }
+        section#content h1{
+            font-size: 2em;
+        }
+        section#content #main-content{
+            width: 70%;
+            float: left;
+            padding: 30px 0px 0px 30px;
+        }
+        section#content #second-content{
+            width: 25%;
+            float: right;
+        }
+        aside{
+            background-color: lightgray;
+            padding: 0px 30px;
+        }
+        aside h3{
+            font-size: 2em;
+            padding: 30px 0px 0px 0px;
+        }
+        aside p{
+            font-size: 1.3em;
+        }
+        footer{
+            clear: both;
+            background-color: lightgray;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marca</h1>
+    </header>
+    <main>
+        <section id="content">
+            <div id="main-content">
+                <article>
+                    <h1>Título</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aperiam eligendi minima quaerat cupiditate dolore ex tempore beatae consequuntur, asperiores distinctio, quia ab facilis odit eveniet quasi sit sed fuga.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque veritatis sit reiciendis animi repudiandae suscipit architecto cumque a. Id excepturi ipsam voluptates dicta cum quisquam amet velit at magni similique.
+                    </p>
+                </article>
+                <article>
+                    <h1>Título 2</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod eum ipsa doloribus deserunt maxime dicta aliquam, animi repellendus, architecto iste alias atque, voluptate assumenda neque non rerum laboriosam magni praesentium.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ea reprehenderit placeat? Officia commodi autem illo voluptas perferendis ut adipisci consectetur minus voluptatum iste repellendus dolorum possimus, laboriosam tempore? Porro?
+                    </p>
+                </article>
+            </div>
+            <div id="second-content">
+                <aside>
+                    <h3>Título Aside</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quos sequi aspernatur quae ducimus deleniti tempora voluptas officia, laborum voluptatum doloribus saepe neque nobis repudiandae autem quis? Voluptas, aspernatur optio?</p>
+                </aside>
+            </div>
+        </section>
+        <nav id="vertical">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Sobre</a>
+                </li>
+                <li>
+                    <a href="">Notícias</a>
+                </li>
+                <li>
+                    <a href="">Produtos</a>
+                </li>
+                <li>
+                    <a href="">Serviços</a>
+                </li>
+                <li>
+                    <a href="">Clientes</a>
+                </li>
+                <li>
+                    <a href="">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </main>
+    <footer>
+        <h3>Rodapé</h3>
+    </footer>
+</body>
+</html>

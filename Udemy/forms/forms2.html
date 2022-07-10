@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizando Formulários</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background: #643d87 url('images/fundo.jpg') no-repeat top center;
+            width: 98vw;
+            height: 98vh;
+        }
+        #container-login{
+            width: 400px;
+            height: 300px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            
+            position: relative;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+        #container-login img{
+            position: relative;
+
+            top: 0%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+        #container-login form{
+            position: relative;
+
+            top: -5%;
+
+        }
+        .input-text{
+            margin-bottom: 10px;
+            width: 80%;
+            height: 30px;
+            padding: 10px;
+            font-size: 1.2em;
+            text-indent: 40px;
+            border: none;
+            position: relative;
+
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+
+            background-repeat: no-repeat;
+            background-position: 10px center;
+        }
+        #submit-login{
+            width: 85%;
+            height: 44px;
+            margin: auto;
+            padding: 5px;
+            font-size: 1.2em;
+            background-color: #fb7c27;
+            border: none;
+            color: white;
+            position: relative;
+
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+        #submit-login:hover{
+           background-color: #814218;
+        }
+        input.email{
+            background-image: url('images/icone-usuario.png');
+        }
+        input.password{
+            background-image: url('images/icone-cadeado.png');
+        }
+    </style>
+</head>
+<body>
+    <div id="container-login">
+        <img src="images/perfil.png" alt="imagem perfil">
+        <form action="">
+            <label for="email"></label>
+            <input class="input-text email" type="text" name="email" id="email" placeholder="Digite seu e-mail">
+            <label for="senha"></label>
+            <input class="input-text password" type="password" name="senha" id="senha" placeholder="Digite sua senha">
+            <input id="submit-login" type="submit" value="LOGAR">
+        </form>
+    </div>
+</body>
+</html>
