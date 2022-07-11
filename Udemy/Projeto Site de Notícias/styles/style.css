@@ -71,11 +71,11 @@ nav#vertical a{
     text-decoration: none;
     line-height: 2em;
     font-weight: bold;
-    padding-left: 20px;
 }
 nav#vertical a:hover{
     color: gray;
     background: url('../images/marcador.png') no-repeat -3px center;
+    padding-left: 20px;
 }
 #aside-content aside{
     margin: 0 5%;
@@ -112,7 +112,7 @@ main{
     float: right;
 }
 #main-content article{
-    float: left;
+    float: right;
     margin-bottom: 20px;
     height: 55vh;
     width: 48%;
@@ -130,7 +130,7 @@ main{
     margin-right: 10px;
 }
 .article-right{
-    float: right !important;
+    float: left !important;
 }
 div.block{
     background-color: white;
