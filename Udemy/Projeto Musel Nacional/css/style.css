@@ -27,7 +27,7 @@ header ul{
 }
 header li{
     float: left;
-    margin: 0px 20px;
+    margin: 0px 15px;
 }
 header a{
     color: #af670a;
@@ -168,7 +168,7 @@ aside #flex-fotos a{
     background-image: url('../img/fundo-foto.png');
 }
 aside section#galeria-fotos h4{
-    margin: 7px 0px 16px 19px;
+    margin: 7px 0px 4px 19px;
 }
 footer{
     text-align: center;
