@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 98vh;
+        }
+
+        @keyframes box-transform{
+            15%{
+                background-color: red;
+                top: 25%;
+                left: 25%;
+            }
+            30%{
+                background-color: green;
+                top: 75%;
+                left: 75%;
+            }
+            45%{
+                background-color: blue;
+                top: 50%;
+                left: 50%;
+            }
+            60%{
+                background-color: yellow;
+                top: 75%;
+                left: 25%;
+            }
+            85%{
+                background-color: orange;
+                top: 25%;
+                left: 75%;
+            }
+            100%{
+                background-color: purple;
+                top: 50%;
+                left: 50%;
+            }
+        }
+
+        .box{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+
+            background-color: black;
+
+            width: 300px;
+            height: 300px;
+            border-radius: 150px;
+
+            animation-name: box-transform;
+            animation-duration: 10s;
+            animation-delay: 1s;
+            animation-iteration-count: 2;
+            animation-direction: alternate;
+        }
+        .box:hover{
+            background-color: red !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        
+    </div>
+</body>
+</html>

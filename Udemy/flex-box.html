@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        section{
+            height: 400px;
+            background-color: lightgray;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: stretch;
+        }
+        .item{
+            background-color: white;
+            border: 1px solid red;
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+
+            flex-grow: 0; 
+            flex-shrink: 1;
+            flex-basis: auto;
+        }
+        .order1{
+            order: 1;
+        }
+        .order2{
+            order: 2;
+        }
+        .order3{
+            order: 3;
+        }
+        .order4{
+            order: 4;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="item order4">
+            01
+        </div>
+        <div class="item order2">
+            02
+        </div>
+        <div class="item order3">
+            03
+        </div>
+        <div class="item order1">
+            04
+        </div>
+    </section>
+</body>
+</html>
