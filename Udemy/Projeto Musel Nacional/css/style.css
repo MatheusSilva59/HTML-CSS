@@ -14,8 +14,7 @@ body{
     font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
 main{
-    margin-bottom: 30px;
-    height: 105vh;
+    width: 1080px;
 }
 header img#logo{
     position: absolute;
@@ -47,7 +46,6 @@ header nav{
 section#main{
     width: 65.7431%;
     float: left;
-    height: 93vh;
     margin-bottom: 30px;
 }
 section img{
@@ -64,7 +62,7 @@ section#flex{
 }
 section .article{
     width: 40%;
-    height: 25vh;
+    height: 208px;
     flex-grow: 1;
     margin: 5px 15px;
 }
@@ -100,6 +98,7 @@ section#main p{
 aside{
     float: right;
     background: #ebe7dd;
+    margin-bottom: 20px;
 }
 aside section#disp{
     background-color: #CDC8B1;
@@ -126,7 +125,7 @@ aside section#disp{
     color: black;
 }
 #disp input#data{
-    width: 80px;
+    width: 102px;
     height: 1.5em;
     margin-right: 5px;
 }
@@ -148,13 +147,13 @@ aside h4{
 }
 aside #galeria-fotos{
     background-color: #EBE7DD;
-    height: 44vh;
+    height: 350px;
 }
 aside #flex-fotos{
     display: flex;
     flex-wrap: wrap;
-    width: 18vw;
-    height: 35vh;
+    width: 287px;
+    height: 291px;
     margin: 0 auto;
     justify-content: space-around;
     align-items: center;
@@ -166,6 +165,7 @@ aside #flex-fotos a{
     margin: 0px;
     padding: 20px 13px 20px 16px;
     background-image: url('../img/fundo-foto.png');
+    flex-grow: 0;
 }
 aside section#galeria-fotos h4{
     margin: 7px 0px 4px 19px;
@@ -173,7 +173,7 @@ aside section#galeria-fotos h4{
 footer{
     text-align: center;
     background: url('../img/fundo-rodape.png') no-repeat top center;
-    padding: 20;
+    clear: both;
 }
 footer ul{
     list-style: none;
