@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: url('../img/fundo.png') repeat-x top center;
+    background-color: #F4F2EC;
+}
+body{
+    width: 1080px;
+    margin: 0 auto;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+main{
+    width: 1080px;
+}
+header img#logo{
+    position: absolute;
+
+    top: 5%;
+}
+header ul{
+    list-style: none;
+}
+header li{
+    float: left;
+    margin: 0px 15px;
+}
+header a{
+    color: #af670a;
+    text-decoration: none;
+    font-size: 12px;
+}
+header a:hover{
+    color: #227115;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #556552;
+}
+header nav{
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+section#main{
+    width: 65.7431%;
+    float: left;
+    margin-bottom: 30px;
+}
+section img{
+    width: 100%;
+}
+section#flex{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 10px;
+}
+section .article{
+    width: 40%;
+    height: 208px;
+    flex-grow: 1;
+    margin: 5px 15px;
+}
+section#main h3{
+    color: #227115;
+    font-size: 1.0em;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+section#main ul{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+section#main li{
+    margin-left: 25px;
+}
+section#main a{
+    color: #af670a;
+    text-decoration: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+section#main a:hover, footer nav a:hover{
+    color: #227115;
+}
+section#main p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.link-bold{
+    font-weight: bold;
+}
+aside{
+    float: right;
+    background: #ebe7dd;
+    margin-bottom: 20px;
+}
+aside section#disp{
+    background-color: #CDC8B1;
+    padding: 15px;
+    margin-top: 10px;
+}
+#disp div{
+    text-align: center;
+    margin-top: 15px;
+}
+#disp input.submit{
+    background-color: #9B9271;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px 0px;
+    width: 90%;
+    border: none;
+}
+#disp input.submit:hover{
+    background-color: #57513e;
+}
+#disp ::placeholder{
+    color: black;
+}
+#disp input#data{
+    width: 102px;
+    height: 1.5em;
+    margin-right: 5px;
+}
+#disp input#qtd-pessoas{
+    width: 40px;
+    height: 1.5em;
+}
+#disp fieldset{
+    border: none;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+aside h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+aside #galeria-fotos{
+    background-color: #EBE7DD;
+    height: 350px;
+}
+aside #flex-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 287px;
+    height: 291px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+aside #flex-fotos a{
+    width: 93px;
+    height: 93px;
+
+    margin: 0px;
+    padding: 20px 13px 20px 16px;
+    background-image: url('../img/fundo-foto.png');
+    flex-grow: 0;
+}
+aside section#galeria-fotos h4{
+    margin: 7px 0px 4px 19px;
+}
+footer{
+    text-align: center;
+    background: url('../img/fundo-rodape.png') no-repeat top center;
+    clear: both;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    margin: 10px;
+}
+footer nav ul li{
+    float: left;
+}
+footer nav{
+    width: 42%;
+    margin: 0 auto;
+}
+footer nav a{
+    color: #af670a;
+    text-decoration: none;
+}
+footer p{
+    padding-bottom: 30px;
+}
+footer span{
+    color: #af670a;
+    margin: 0 8px;
+}
+.clear{
+    clear: both;
+}

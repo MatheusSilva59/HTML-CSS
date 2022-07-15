@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    
+}
+header{
+    background: #294C71 url('../images/fundo.png') repeat-x left bottom;
+    height: 30vh;
+}
+nav#horizontal{      
+    width: 60%;
+    margin: auto;
+    height: 100px;
+
+    position: relative;
+    top: 50%;
+    z-index: 1;
+}
+nav#horizontal ul{
+    list-style: none;
+}
+nav#horizontal li{
+    float: left;
+    margin-top: 20px;
+}
+nav#horizontal a{
+    padding: 20px 30px;
+    color: white;
+    background-color: darkred;
+    text-decoration: none;
+    box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.267);
+}
+nav#horizontal a:hover{
+    background-color: red;
+}
+#home > header > nav > ul > li > .home,
+#brasil > header > nav > ul > li > .brasil,
+#internacional > header > nav > ul > li > .internacional,
+#economia > header > nav > ul > li > .economia,
+#saude > header > nav > ul > li > .saude,
+#ciencia > header > nav > ul > li > .ciencia,
+#fotos > header > nav > ul > li > .fotos{
+    background-color: red !important;
+}
+#aside-content{
+    width: 200px;
+    float: left;
+    background-image: url('../images/fundo-caixa.png');
+}
+#aside-content aside, nav#vertical{
+    float: left;
+    margin-bottom: 30px;
+}
+nav#vertical ul{
+    list-style: none;
+    margin: 10px;
+}
+nav#vertical{
+    margin: 0 5%;
+    width: 90%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+nav#vertical a{
+    color: black;
+    text-decoration: none;
+    line-height: 2em;
+    font-weight: bold;
+}
+nav#vertical a:hover{
+    color: gray;
+    background: url('../images/marcador.png') no-repeat -3px center;
+    padding-left: 20px;
+}
+#aside-content aside{
+    margin: 0 5%;
+    width: 90%;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#aside-content aside input.input-text{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: 5px 0px;
+}
+#aside-content aside input.input-submit{
+    display: block;
+    width: 70%;
+    height: 40px;
+    margin: 5px 0px;
+    background-color: darkred;
+    color: white;
+    border-color: rgb(116, 0, 0);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#aside-content aside input.input-submit:hover{
+    background-color: red;
+}
+main{
+    width: 60%;
+    margin: auto;
+}
+#main-content{
+    width: 75%;
+    float: right;
+}
+#main-content article{
+    float: right;
+    margin-bottom: 20px;
+    height: 55vh;
+    width: 48%;
+    background-image: url('../images/fundo-caixa.png');
+}
+.article-bigger{
+    height: 70vh !important;
+}
+.single-img > img{
+    width: 100%;
+}
+.multiple-img > img{
+    float: left;
+    width: 50%;
+    margin-right: 10px;
+}
+.article-right{
+    float: left !important;
+}
+div.block{
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+}
+h2{
+    clear: both;
+    background-color: #294C71;
+    color: white;
+    padding: 5px 30px 5px 5px;
+    margin-bottom: 15px;
+}
+.sub-title{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #3e77b4;
+    font-size: .7em;
+    text-decoration: none;
+}
+.sub-title:hover{
+    text-decoration: underline;
+}
+.multiple-img p{
+    margin-top: 5px;
+}
+p{
+    margin-bottom: 10px;
+}
+.link-leia-mais{
+    color: rgb(194, 3, 3);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.link-leia-mais:hover{
+    text-decoration: underline;
+}
+.clear{
+    clear: both;
+}
+.image-relative-1{
+    position: relative;
+    float: left;
+
+    top: 12%;
+    left: 20%;
+}
+.image-relative-2{
+    position: relative;
+    float: right;
+
+    bottom: 36%;
+    right: 20%;
+    z-index: 0 !important;
+}
